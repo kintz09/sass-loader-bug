@@ -2,13 +2,14 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.scss";
 
-import AppBar from "./AppBar";
-// import AppBarFail from "./AppBarFail";
+// import AppBar from "./AppBar";
+import AppBarFail from "./AppBarFail";
 
 function App() {
   return (
     <div className="App">
-      <AppBar />
+      {/* <AppBar /> */}
+      <AppBarFail />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
