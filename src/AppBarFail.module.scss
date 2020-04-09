@@ -1,0 +1,7 @@
+// The sass in this package is what causes the compiler error
+@use "@material/top-app-bar";
+
+.appbar {
+  @include top-app-bar.fill-color(surface);
+  @include top-app-bar.ink-color(on-surface);
+}
